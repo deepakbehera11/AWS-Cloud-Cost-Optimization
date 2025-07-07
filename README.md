@@ -29,5 +29,12 @@ The Lambda function fetches all EBS snapshots owned by the same account ('self')
 ![](https://github.com/deepakbehera11/AWS-Cloud-Cost-Optimization/blob/ad6d8c8110b4b26ac9414096dd69d1d217011645/Assets/Screenshot-function.png)
 - but the snapshot is not deleted because our function checks if it's not attached to any volume or the volume is not attached to a running instance
 - So here, deleting the instance, eventually the volume also gets deleted
+![](https://github.com/deepakbehera11/AWS-Cloud-Cost-Optimization/blob/e94a710f98904654fe10bcc83b5dff14230152c7/Assets/Screenshot-Ec2-termination.png)
+
+![](https://github.com/deepakbehera11/AWS-Cloud-Cost-Optimization/blob/e94a710f98904654fe10bcc83b5dff14230152c7/Assets/Screenshot-snapshot-1.png)
+
 - Now Executing the code
-- And Now snapshots get deleted .
+![](https://github.com/deepakbehera11/AWS-Cloud-Cost-Optimization/blob/e94a710f98904654fe10bcc83b5dff14230152c7/Assets/Screenshot-function-success.png)
+
+- And Now snapshots get deleted.
+![](https://github.com/deepakbehera11/AWS-Cloud-Cost-Optimization/blob/6f517cadf244f049c6b9bc03cf620687dc68a957/Assets/Screenshot-snapshot-0.png)
